@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.navbar{
+    height: 70px;
+    background-color: #190482;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.panel{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: x-large;
+}
+
+.nav{
+    margin-left: 25px;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* hero section */
+
+.hero{
+    height: 450px;
+    background-image: url("travel3.jpeg");
+    background-size: cover;
+}
+
+.content{
+    height: 800px;
+    background-color: #C2D9FF;
+}
+
+.about{
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.about p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+    /* background-color: #7752FE;
+
+    background-color: #8E8FFA;
+
+
+    background-color: #C2D9FF;    */
