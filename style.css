@@ -42,16 +42,22 @@
 
 .hero{
     height: 450px;
-    background-image: url("travel3.jpeg");
+    background-image: url("hero.jpg");
     background-size: cover;
     display: flex;
     align-items: flex-end;
 }
 
-button{
+.sign{
     width:200px;
     height: 50px;
     border-radius: 10px;
+    margin-left: 1200px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    background-color: rgb(8, 141, 243);
+    color: white;
+    
 }
 
 .content{
@@ -64,6 +70,10 @@ button{
     margin: 10px;
     border-radius: 20px;
     padding: 10px;
+}
+
+.back{
+    padding-top: 20px;
 }
 
 .about p{
@@ -83,7 +93,8 @@ button{
 .tourname{
     height: 750px;
     width: 25%;
-    background-color: #8e8ffa;
+    /* background-color: #8e8ffa; */
+    background: linear-gradient(#7752FE, #9198e5);
     color: black;
     font-size: larger;
     padding: 20px 0px 15px;
@@ -185,11 +196,130 @@ a{
     border: 2px solid black;
     border-radius: 20px;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.rev2{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.user{
+    margin-top: 30px;
+    font-size: 5rem;
+}
+
+.rev3{
+    width: 80%;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.rev3 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.rev3 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.star{
+    font-size: 2rem;
 }
 
 /* contact */
 
+.contact{
+    height: 230px;
+    background-color: #7752FE;
+    display: flex;
+    align-items: center;
+}
 
+.us{
+    width: 33%;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.us h2{
+    font-size: 30px;
+}
+
+.us1{
+    padding-top: 5px;
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.us3{
+    padding-left: 5px;
+}
+
+.email{
+    height: 40px;
+    width: 280px;
+    border: none;
+}
+
+.but{
+    height: 40px;
+    width: 50px;
+}
+
+.email:focus{
+    background-color: beige;
+}
+
+.but:focus{
+    background-color: rgb(99, 218, 99);
+}
+
+.inp h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.inp{
+    width: 33%;
+}
+
+.follow{
+    width: 33%;
+    padding-left: 60px;
+    margin-left: 40px;
+}
+
+.follow h2{
+    font-size: 30px;
+}
+
+.follow1{
+    display: flex;
+}
+
+.follow2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.copyright{
+    height: 50px;
+    background-color: #190482;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
 
     /* background-color: #7752FE;
 
